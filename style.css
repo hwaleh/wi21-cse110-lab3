@@ -1,0 +1,49 @@
+.input {
+    font-weight: bold;
+}
+
+#mycanvas {
+    background-color: yellow;
+}
+
+* #textarea {
+    background-color: orange;
+}
+
+p {
+    background-color: green;
+}
+
+iframe[title] {
+    color: purple;
+}
+
+button:hover {
+    color: purple;
+}
+
+span,
+div {
+  border: red 3px solid;
+}
+
+div p {
+    margin: 2em;
+}
+
+div > span {
+    margin: 3em;
+}
+
+img ~ p {
+    color: brown;
+}
+
+img + p {
+    font-weight: bold;
+}
+
+#mycanvas.input {
+    font-weight: bold; 
+}
+
