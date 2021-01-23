@@ -10,11 +10,14 @@
                 background-color: indigo;
             }
         </style>
+        p {color: orange;}
+        p.dbk{display: block;}
+        p.dinline {display: inline;}
     </head>
     <body>
         <main>
            <header> <h1> style="color:blue;text-align:center;"> About Me</h1> </header>
-            <span> My name is <b>Haaris Waleh</b>. I am a 3rd year Computer Science Major at <i>UCSD.</i> </span>
+            <span> My name is <p class="dinline">Haaris Waleh</p>. I am a 3rd year Computer Science Major at <i>UCSD.</i> </span>
 
            <div> <h2>My Goals</h2> </div> 
            
@@ -23,7 +26,7 @@
            <p> Though we may wish we could just <code>make clean</code> our mistakes to undo them, debugging is almost never that easy. <br>It is my goal to <strong>fix</strong> any mistakes I make and <em>not</em> to make a mistake more than once.
         </p>
 
-            Here are the steps in debugging:
+            Here are <p class="dbk">the</p> steps in debugging:
             <ol>
                 <li>Recognize the existence of a bug</li>
                 <li> Isolate the source</li>
@@ -168,6 +171,7 @@
         <aside>
             inputs
             <nav>
+                position:static;
                 <form action="/inputs.php">
                     <label for="button">button:</label>
                     <input type="button" id="button" value="button"><br><br>
