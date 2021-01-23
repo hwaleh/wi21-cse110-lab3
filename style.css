@@ -1,5 +1,9 @@
 .input {
+    text-decoration: underline;
     font-weight: bold;
+    text-align: center;
+    font-family: <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">;
 }
 
 #mycanvas {
@@ -7,24 +11,25 @@
 }
 
 * #textarea {
-    background-color: orange;
+    background-color: #777;
 }
 
 p {
-    background-color: green;
+    background-color: rgb(60, 179, 113);
 }
 
 iframe[title] {
-    color: purple;
+    background-color: rgba(60, 179, 113,0);
 }
 
 button:hover {
-    color: purple;
+    color: #ff00ff
 }
 
 span,
 div {
   border: red 3px solid;
+  border-radius: 10px;
 }
 
 div p {
@@ -32,7 +37,7 @@ div p {
 }
 
 div > span {
-    margin: 3em;
+    margin: 3mm;
 }
 
 img ~ p {
@@ -40,10 +45,26 @@ img ~ p {
 }
 
 img + p {
-    font-weight: bold;
+    margin: 2mm;
 }
 
 #mycanvas.input {
-    font-weight: bold; 
+    margin: 1mm;
 }
+
+img {
+    margin-top: 8px;
+    margin: 8px 8px 8px 8px;
+    padding-top: 6px;
+    padding: 6px 6px 6px 6px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 40px; left: 40px;
+}
+
+
+
+
+/*start early start often*/
 
