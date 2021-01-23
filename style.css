@@ -22,11 +22,11 @@ iframe[title] {
     background-color: rgba(60, 179, 113,0);
 }
 
-button:hover {
+nav.button:hover {
     color: #ff00ff;
 }
 
-button:active {
+nav.button:active {
     color: steelblue;
 }
 
